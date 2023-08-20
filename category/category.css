@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(32, 32, 32);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.filters {
+    /* display: flex; */
+    justify-content: flex-start;
+    margin: 20px;
+    padding-left: 4%;
+}
+
+.filter-group {
+    margin-right: 20px;
+}
+
+.filter-group h3 {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+.filter-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.filter-button.selected {
+    background-color: #f0cc02;
+    color: black;
+}
+
+.anime-card {
+    /* border: 1px solid #ddd; */
+    background-color: transparent;
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    width: 300px;
+    height: 160px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.anime-card img {
+    width: 300px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.anime-card img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.anime-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    gap: 20px;
+    /* justify-content: center; */
+}
+
+
+@media (max-width: 1325px) {
+    .anime-container {
+        justify-content: center;
+    }
+}

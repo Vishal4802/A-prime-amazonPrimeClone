@@ -1,0 +1,184 @@
+body {
+    background-color: rgb(32, 32, 32);
+}
+
+.homecato{
+    margin: auto;
+}
+.logo{
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu{
+    --bs-dropdown-link-active-bg: rgb(39, 39, 39);
+}
+
+.dropdown{
+    position: fixed;
+    display: none;
+    z-index: 100;
+}
+
+.headerHome:hover .dropdown{
+    display: block;
+}
+
+.headerCat:hover .dropdown{
+    display: block;
+}
+
+.slide {
+    padding: 0 5%;
+    border-radius: 10px;
+}
+.carousel-inner {
+    border-radius: 10px;
+}
+
+.slide img {
+    width: auto;
+    height: 30rem;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.description {
+    width: auto;
+    height: auto;
+    /* text-shadow: 10px 10px 8px #000000; */
+}
+
+.description p{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.overley{
+    width: 100%;
+    height: 30rem;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+.title {
+    color: white;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.arrow {
+    color: yellow;
+}
+
+
+  #carouselExampleFade .carousel-item {
+    display: flex;
+    padding-left: 3.5%;
+    gap: 10px;
+  }
+
+  #carouselExampleFade img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  #carouselExampleFade img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+  #carouselExampleFade2 .carousel-item {
+    display: flex;
+    padding-left: 3.5%;
+    gap: 10px;
+  }
+
+  #carouselExampleFade2 img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  #carouselExampleFade2 img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+  #carouselExampleFade3 .carousel-item {
+    display: flex;
+    padding-left: 3.5%;
+    gap: 10px;
+  }
+
+  #carouselExampleFade3 img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  #carouselExampleFade3 img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+
+  .text-body-secondary {
+    color: white!important;
+  }
+
+  .align-items-center {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* info.js */
+  .info-img {
+    width: auto;
+    height: 100vh;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.info-overley{
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.info-description {
+  position: absolute;
+  bottom: 15%;
+  width: 40%;
+}
+.info-description h1{
+  font-size: 100px;
+}
+
+.info-description .dropdown {
+  position: absolute;
+}
+
+.info-description .headerHome {
+  color: black;
+}
+
+
+@media (max-width: 1160px) {
+  .anime-info .container {
+    transform: scale(0.9);
+  }
+}
+
+  
+

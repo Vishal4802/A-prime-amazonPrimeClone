@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Prime</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- nav -->
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <h5 class="logo">A-Prime</h5>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 homecato">
+                <li class="headerHome"><a href="./index.html" class="nav-link px-2 text-white">Home</a></li>
+                <li class="headerCat"><a href="./category/category.html" class="nav-link px-2 text-white">Category</a></li>
+            </ul>
+    
+            <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+            </form> -->
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+      <h2 class="title">Anime</h2>
+
+      <!-- Hero -->
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overley"></div>
+            <img src="./images/Jujutsu kaison.jpg" class="d-block w-100" alt="...">
+            <div class="container">
+                <div class="carousel-caption text-start description">
+                  <h1>Jujutsu Kaison</h1>
+                  <p class="opacity-75">A boy swallows a cursed talisman - the finger of a demon - and becomes cursed himself. He enters a shaman's school to be able to locate the demon's other body parts and thus exorcise himself.</p>
+                  <p><a id="jujutsu-kaison" class="hero-p btn btn-warning">Watch Now</a></p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overley"></div>
+            <img src="./images/AOT.webp" class="d-block w-100" alt="...">
+            <div class="container">
+                <div class="carousel-caption text-start description">
+                  <h1>Attack on Titan</h1>
+                  <p class="opacity-75">Attack on Titan is set in a world where humanity lives inside cities surrounded by enormous Walls that protect them from Titans, gigantic humanoid creatures who devour humans seemingly without reason.</p>
+                  <p><a id="aot" class="hero-p btn btn-warning">Watch Now</a></p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overley"></div>
+            <img src="./images/demon-slayer.avif" class="d-block w-100" alt="...">
+            <div class="container">
+                <div class="carousel-caption text-start description">
+                  <h1>Demon Slayer</h1>
+                  <p class="opacity-75">A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.</p>
+                  <p><a id="demon-slayer" class="hero-p btn btn-warning">Watch Now</a></p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <h5 class="title">Popular Anime <b class="arrow">></b></h5>
+      
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/Jujutsu kaison.jpg" class="jujutsu-kaison" alt="...">
+            <img src="./images/demon-slayer.avif" class="demon-slayer" alt="...">
+            <img src="./images/spy.jpg" class="spy" alt="...">
+            <img src="./images/AOT.webp" class="aot" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/one-peice.jpe" class="one-peice" alt="...">
+            <img src="./images/movies/blue giant.jpg" class="blue-giant" alt="...">
+            <img src="./images/movies/Death Note.webp" class="death-note" alt="...">
+            <img src="./images/movies/gridman universe.jpg" class="gridman-universe" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <h5 class="title">Anime <b class="arrow">></b></h5>
+
+      <div id="carouselExampleFade2" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/AOT.webp" class="aot" alt="...">
+            <img src="./images/movies/Death Note.webp" class="death-note" alt="...">
+            <img src="./images/demon-slayer.avif" class="demon-slayer" alt="...">
+            <img src="./images/Jujutsu kaison.jpg" class="jujutsu-kaison" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/one-peice.jpe" class="one-peice" alt="...">
+            <img src="./images/spy.jpg" class="spy" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <h5 class="title">Anime Movies <b class="arrow">></b></h5>
+      
+      <div id="carouselExampleFade3" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/movies/blue giant.jpg" class="blue-giant" alt="...">
+            <img src="./images/movies/gridman universe.jpg" class="gridman-universe" alt="...">
+            <img src="./images/movies/castle.avif" class="castle" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+ 
+      <br>
+      <br>
+      <div class="align-items-center" style="position: relative; bottom: 0;">
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 A-Prime, Inc</span>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
